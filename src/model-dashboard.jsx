@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Upload, List, FileText, Package, ExternalLink, X } from 'lucide-react';
+import { Upload, FileText, Package, ExternalLink, X } from 'lucide-react';
 import { Alert, AlertDescription } from './components/ui/alert';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './components/ui/card';
 
 export default function ModelDashboard() {
   const [models, setModels] = useState([]);
