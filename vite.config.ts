@@ -9,5 +9,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"), // Ensure this path points to your source directory
     },
   },
+  server: {
+    host: '0.0.0.0',
+    port: 3000, // Change this to your desired port
+  },
 });
 
